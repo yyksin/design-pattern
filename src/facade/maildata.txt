@@ -1,4 +1,4 @@
-youngjin@naver.com=youngjin
+yyksin@naver.com=yyk
 kim@naver.com=kim
 lee@naver.com=lee
 park@naver.com-park

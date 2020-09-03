@@ -16,7 +16,7 @@ public class Database {
         Properties prop = new Properties();
 
         try {
-            prop.load(new FileInputStream("/Users/yyk/IdeaProjects/design-pattern/src/facade/"+filename));
+            prop.load(new FileInputStream(Database.class.getResource(".").getPath()+filename));
         } catch (IOException e) {
             e.printStackTrace();
         }
